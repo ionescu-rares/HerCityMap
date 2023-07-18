@@ -38,7 +38,7 @@ export default function App() {
       scrollWheelZoom={true}
       style={{
         height: `90vh`,
-        width: "90vh",
+        width: "90vw",
         justifySelf: "center",
         display: "flex",
       }}
