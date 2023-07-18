@@ -1,6 +1,6 @@
-import { Typography, useMediaQuery } from "@mui/material";
+import { Typography } from "@mui/material";
 import { Icon, LatLngExpression, LatLngTuple } from "leaflet";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Marker, Popup, Tooltip, useMap, useMapEvents } from "react-leaflet";
 
 type IProps = {
@@ -23,8 +23,6 @@ export const CustomMarker = ({
   icon,
 }: IProps) => {
   const map = useMap();
-
-  const mediaQuery = useMediaQuery("(min-width: 768px)");
 
   const [zoom, setZoom] = useState(map.getZoom());
   console.log(zoom);

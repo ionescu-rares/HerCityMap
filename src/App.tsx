@@ -1,11 +1,9 @@
 import L, { LatLngExpression } from "leaflet";
-import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
+import { MapContainer, TileLayer } from "react-leaflet";
 
 import "leaflet/dist/leaflet.css";
 import "leaflet/dist/images/marker-shadow.png";
 
-import React, { useEffect, useState } from "react";
-import { Typography, useMediaQuery } from "@mui/material";
 import { heroes, personalities } from "./personalities";
 import { CustomMarker } from "./CustomMarker";
 
@@ -32,11 +30,6 @@ export const heroIcon = new L.Icon({
 });
 
 export default function App() {
-  const [mapState, setMapState] = React.useState({
-    lat: 41.257017,
-    lng: 29.077524,
-    zoom: 13,
-  });
   console.log("render");
   return (
     <MapContainer
