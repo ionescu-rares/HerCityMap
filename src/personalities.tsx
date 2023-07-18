@@ -261,6 +261,16 @@ export const personalities: PersonalityType[] = [
     imageSrc: "Iojica.jpg",
   },
   {
+    name: "Adelina Iojica",
+    place: "Sediul Institutului de Sudura și Încercări pe Materiale",
+
+    title: "arhitectă",
+    details:
+      "A proiectat clădirea ISIM, sediul Institutului de Sudura și Încercări pe Materiale, între anii 1972-1973 și Fântâna Punctelor Cardinale, un simbol al Timișoarei.",
+    imageSrc: "Iojica.jpg",
+    position: [45.74449278143995, 21.225320153027763],
+  },
+  {
     name: "Lavinia Miloșovici",
     place: "Universitatea de Vest Timișoara",
     position: [45.74750893971063, 21.232407232198696],
@@ -355,6 +365,6 @@ export const heroes: PersonalityType[] = [
     imageSrc: "steagromanesc.jpg",
     details:
       "Ucisă de o rafală de gloanțe în fața garnizoanei din Piața Libertății",
-    position: [45.75603694257819, 21.226712030353543],
+    position: [45.75538822592425, 21.226454703575772],
   },
 ];
