@@ -127,7 +127,7 @@ export const personalities: PersonalityType[] = [
     title: "arhitectă",
     details:
       "A proiectat împreună cu soțul său Colegiul Național de Artă „Ion Vidu” , a cărei sală este recunoscută pentru acustica deosebită, precum și Institutul Agronomic.",
-    imageSrc: "AureliaFackelman.jpg",
+    imageSrc: "fackelman.jpg",
     position: [45.74709198232793, 21.23485389746739],
   },
   {
@@ -258,7 +258,7 @@ export const personalities: PersonalityType[] = [
     title: "arhitectă",
     details:
       "A proiectat clădirea ISIM, sediul Institutului de Sudura și Încercări pe Materiale, între anii 1972-1973 și Fântâna Punctelor Cardinale, un simbol al Timișoarei.",
-    imageSrc: "AdelinaIojica.jpg",
+    imageSrc: "Iojica.jpg",
   },
   {
     name: "Lavinia Miloșovici",
