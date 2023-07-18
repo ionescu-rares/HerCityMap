@@ -18,7 +18,10 @@ div.leaflet-popup-content p  {
   color:red;
   background-color:red;
 }
-
+.leaflet-container {
+  height: 90vh; 
+  width: 100%; 
+}
 
 
 .logo {
