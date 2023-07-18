@@ -262,8 +262,7 @@ export const personalities: PersonalityType[] = [
   },
   {
     name: "Adelina Iojica",
-    place: "Sediul Institutului de Sudura și Încercări pe Materiale",
-
+    place: "Clădirea ISIM",
     title: "arhitectă",
     details:
       "A proiectat clădirea ISIM, sediul Institutului de Sudura și Încercări pe Materiale, între anii 1972-1973 și Fântâna Punctelor Cardinale, un simbol al Timișoarei.",
