@@ -38,9 +38,9 @@ export default function App() {
       scrollWheelZoom={true}
       style={{
         height: `90vh`,
+        width: "90vh",
         justifySelf: "center",
         display: "flex",
-        maxWidth: "90%",
       }}
     >
       <TileLayer
